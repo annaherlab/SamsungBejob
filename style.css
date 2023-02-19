@@ -1,4 +1,5 @@
-body{
+body
+{
 	background-color: #232832;
 }
 form
@@ -14,31 +15,34 @@ form
 input {
 	border: 1px solid #ccc;
   	border-radius: 4px;
-   width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  outline: none;
+   	width: 100%;
+  	padding: 12px 20px;
+  	margin: 8px 0;
+  	box-sizing: border-box;
+  	-webkit-transition: 0.5s;
+  	transition: 0.5s;
+  	outline: none;
 }
-label{
+label
+{
 	color: #747D9C;
 	font-family: "Poppins";
 
 }
 
-button{
+button
+{
 	width: 405px;
 	border-radius: 4px;
-    height: 50px;
-    background-color: #575CA6;
-    border: solid black;    
-    outline: 1.5px solid white;
-    color: white;
+    	height: 50px;
+    	background-color: #575CA6;
+    	border: solid black;    
+   	outline: 1.5px solid white;
+    	color: white;
 }
 
-#titulo {
+#titulo 
+{
 	color: #ABB9E0;
 	font-family: "Poppins";
 }
