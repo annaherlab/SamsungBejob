@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	    <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');</style>
+	    <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
+</head>
+<body>
+	<script src="index.js"></script>
+
+	<form>
+		<h1 id="titulo">Create account</h1>
+		<label> Nombre 
+
+			<input type="text" id="nombre" required>
+			<div id="textoNombre"></div>
+			<br>
+
+		</label>
+		<label> Email 
+			<input type="email" id="email" required>
+			<div id="textoEmail"></div>
+			<br>
+
+		</label>
+		<label> Clave 
+			<input type="password" id="password" required>
+			<div id="textoPassword"></div>
+			<br>
+
+
+		</label>
+		<label> Confirme su clave 
+			<input type="password" id="confirme" required>
+			<div id="textoConfirme"></div>
+			<br>
+
+		</label>
+
+		<button onclick="validarTodos()">ENVIAR</button>
+	</form>
+</body>
+</html>
